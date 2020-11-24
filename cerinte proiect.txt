@@ -15,10 +15,9 @@ HTML
 -selectori:elementContinut, elementCopil, al n-lea copil de tipul unui tag (:nth-of-type), :hover,[atribut*=val]
 -proprietati:vertical-align, visibility, 
 
--transform, transition, animation
+-transition
 
-Css -responsive: 
--vh,vw, media-query (@media) 
+Css -responsive:  
 -,z-index
 -stilizare FLEX, GRID (proprietatea display)
 
@@ -26,7 +25,6 @@ Js
 Baza
 -modificare  de proprietati
 -modificare  a stilului unui element 
--modificare  eveniment (ex: el.onclick)
 -selectare dupa id,tag,clasa,selectorCSS
 -creare si stergere element (createElement si removeChild)
 -inputuri functionale(buton,text,radio,checkbox)
