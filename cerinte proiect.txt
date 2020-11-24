@@ -23,8 +23,6 @@ Css -responsive:
 
 Js
 Baza
--modificare  de proprietati
 -modificare  a stilului unui element 
--selectare dupa id,tag,clasa,selectorCSS
 -creare si stergere element (createElement si removeChild)
 -inputuri functionale(buton,text,radio,checkbox)
