@@ -17,9 +17,10 @@ var linkuri = ["https://eu.morphe.com/products/the-james-charles-palette",
 function myChangeFigcaption(){
     var figcaptions = document.getElementsByTagName("figcaption");
     for(let i = 0; i < figcaptions.length; i++){
+        figcaptions[i].style.cursor = "pointer";
         figcaptions[i].onclick = function(){
             window.open(linkuri[i], "_self");
-            if(figcaptions[i].style) figcaptions[i].style.cursor = "pointer";
+            
         }
     }
 }

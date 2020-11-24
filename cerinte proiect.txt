@@ -22,7 +22,6 @@ Css -responsive:
 -stilizare FLEX, GRID (proprietatea display)
 
 Js
-Baza
--modificare  a stilului unui element 
+Baza 
 -creare si stergere element (createElement si removeChild)
 -inputuri functionale(buton,text,radio,checkbox)

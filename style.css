@@ -4,6 +4,10 @@ h1{
     text-shadow: 2px 2px #a715156b;
     font-size: 5vh;
 }
+h1{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
 
 h2{
     color: lightcoral;
@@ -12,10 +16,12 @@ h2{
     font-size: 1vw;
 }
 
+/* pune caracterul \00A7 inainte de scris*/ 
 h2::before{
     content: '\00A7'
 }
 
+/*background nebun*/
 .parallax {
     background-image: url("https://media.allure.com/photos/5f9ecae88e6f01b23a792a21/16:9/w_2560%2Cc_limit/GettyImages-1268463116.jpg");
     height: 600px;
@@ -38,9 +44,11 @@ iframe:focus {
 iframe[seamless] {
     display: block;
 }
+
 p.font{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 p{
     text-align: justify;
     margin-left: 20em;
@@ -126,11 +134,8 @@ p{
     text-align: center;
 }
 
-h1{
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-  
+
+/* slides in the header*/  
 @keyframes slidein {
     from {
       margin-left: 100%;
@@ -141,9 +146,7 @@ h1{
       width: 100%;
     }
 }
-
-/* For mobile phones: */
-
+/* media query for parallax*/
 @media only screen and (max-device-width: 1024px) {
     .bg1,
     .bg2,
